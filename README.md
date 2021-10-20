@@ -1,4 +1,4 @@
-## Materials for the R-Ladies St. Louis meetup on October 26, 2021
+## Materials for the R-Ladies St. Louis Meetup on October 26, 2021
 
 ### Preparing for the Workshop
 
