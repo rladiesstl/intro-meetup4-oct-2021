@@ -1,4 +1,8 @@
-## Materials for the R-Ladies St. Louis Meetup on October 26, 2021
+## Using RMarkdown to Create Reproducible Documents
+
+### Introductory slides
+
+See the slides for the Meetup introduction here: https://rladiesstl.github.io/intro-meetup4-oct-2021/
 
 ### Preparing for the Workshop
 
