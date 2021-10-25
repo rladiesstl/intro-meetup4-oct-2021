@@ -1,6 +1,6 @@
 ---
 title: "Welcome to R-Ladies St. Louis"
-author: "Exploratory Analysis with ggplot"
+author: "Using RMarkdown to create Reproducible Documents"
 date: "October 26, 2021"
 output:
   xaringan::moon_reader:
