@@ -1,4 +1,4 @@
-## Using RMarkdown to Create Reproducible Documents
+## Using RMarkdown to Create Reproducible Documents (Oct 26, 2021)
 
 ### Introductory slides
 
