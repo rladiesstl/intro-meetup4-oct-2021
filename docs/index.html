@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Welcome to R-Ladies St. Louis</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Exploratory Analysis with ggplot" />
+    <meta name="date" content="2021-10-26" />
+    <script src="index_files/header-attrs/header-attrs.js"></script>
+    <link href="index_files/remark-css/default.css" rel="stylesheet" />
+    <link href="index_files/remark-css/rladies.css" rel="stylesheet" />
+    <link href="index_files/remark-css/rladies-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Welcome to R-Ladies St. Louis
+### Exploratory Analysis with ggplot
+### October 26, 2021
+
+---
+
+
+
+
+# Materials for tonight 
+
+&lt;br&gt;
+
+- All materials can be found here: https://github.com/rladiesstl/intro-meetup4-oct-2021
+
+- Have R and RStudio installed on your computer
+
+---
+
+# What is R-Ladies?
+
+- R-Ladies is a world-wide organization with the mission of promoting **gender diversity in the R community**  
+
+- Started in San Francisco in 2012 and as of October 25 has **216 chapters and more than 95,000** members globally (check out rladies.org for a Shiny dashboard)
+
+&lt;img src="https://pbs.twimg.com/media/EPlDKUQUcAEq5pw?format=jpg&amp;name=small" width="70%" style="display: block; margin: auto;" /&gt;
+
+---
+
+# R-Ladies St. Louis 
+
+* Started in September 2017 by Jenine Harris and Chelsea West 
+
+* 4 Meetups in 2017-2018, 5 Meetups in 2018-2019, 5 in 2019-2020, and 7 in 2020-21!
+
+* Co-organizers for 2021-22 include:
+
+  - Jenine Harris (Washington University)  
+    
+  - Mary Painter (University of Missouri)  
+    
+  - Shelly Cooper (Washington University)  
+    
+  - Crystal Lewis (University of Missouri)
+  
+---
+  
+# 2021 Fall Schedule
+
+* Every Tuesday in October we will be featuring an Introductory R topic in our first ever OctobeR ExtRavaganza
+
+  - Past: [Getting Started with R](https://www.youtube.com/watch?v=tbeLU71ZKkU) with **David Keyes** (R for the Rest of Us)
+  
+  - Past: [Intro to Tidyverse](https://www.youtube.com/watch?v=p6IHJ-7fqpo) with **Jess McKay** (Financial Health Network)
+  
+  - Today: [Exploratory Analysis with ggplot](https://www.youtube.com/watch?v=eTF-L2_pVrg) with **Rebecca Winkler** (UMSL)
+  
+  - Tuesday Oct. 26: Customizing R Markdown with **Mine Çetinkaya-Rundel** (Duke University and RStudio)
+    
+* RSVP for future talks on meetup.com
+
+* We will be recording this talk
+  
+    - Feel free to turn off your cameras if you do not want to be recorded
+    - Use the chat to ask questions (to everyone **or** directly to the host)
+
+---
+
+# Want to learn more or get involved?
+
+- Visit **rladies.org** to learn about the mission and global work of R-Ladies 
+
+- Connect with R-Ladies St. Louis 
+    + Email us at &lt;a href = "mailto:rladiesstl@gmail.com"&gt;rladiesstl@gmail.com&lt;/a&gt; 
+    + Follow us on Twitter &lt;a href="https://twitter.com/RLadiesSTL"&gt;@rladiesstl&lt;/a&gt;
+    + Connect with us on &lt;a href="https://www.meetup.com/R-Ladies-St-Louis/"&gt;Meetup&lt;/a&gt;
+    
+&lt;img src = "https://github.com/rladies/starter-kit/blob/master/logo/R-LadiesGlobal_RBG_online_LogoOnly.png?raw=true" width = 250/&gt;&lt;img src = "https://media.giphy.com/media/3o7abBphHJngINCHio/giphy.gif" width = "300" align = "right"/&gt;
+
+---
+
+# About tonight's speaker
+
+- [Mine Çetinkaya-Rundel](https://mine-cr.com) is a Professor of Practice and the Director of Undergraduate Studies at the Department of Statistical Science at Duke University
+
+- Mine's work focuses on innovation in statistics and data science pedagogy, with an emphasis on computing, reproducible research, student-centered learning, and open-source education
+
+- Mine is also a data scientist and professional educator at RStudio!
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightLines": true
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
