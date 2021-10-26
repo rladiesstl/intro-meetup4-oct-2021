@@ -109,6 +109,14 @@ knitr::include_graphics("images/simple-rmd.png")
 
 ---
 
+## Options for hands on activities
+
+- Go to [bit.ly/custom-rmd-stl-cloud](https://bit.ly/custom-rmd-stl-cloud), create an account/log in, save a permanent copy of the project
+
+- Go to [github.com/rladiesstl/intro-meetup4-oct-2021/](https://github.com/rladiesstl/intro-meetup4-oct-2021/), clone the repo, follow along in `exercises/`
+
+---
+
 background-image: url("images/amboseli-land.jpeg")
 background-size: cover
 
