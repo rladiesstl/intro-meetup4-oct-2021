@@ -2,7 +2,7 @@
 title: "Customizing R Markdown"
 subtitle: "R-Ladies St. Louis<br><br><br><br><br><br>"
 author: "Mine Çetinkaya-Rundel"
-date: "[rstd.io/rmd-custom](https://rstd.io/rmd-custom)"
+date: "[bit.ly/custom-rmd-stl](https://bit.ly/custom-rmd-stl)"
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
@@ -116,7 +116,7 @@ background-size: cover
 <br><br><br><br><br>
 
 .midi[
-.hand[follow along at] [rstd.io/rmd-custom-cloud](https://rstd.io/rmd-custom-cloud)
+.hand[follow along at] [bit.ly/custom-rmd-stl-cloud](https://bit.ly/custom-rmd-stl-cloud)
 ]
 
 ---
@@ -154,7 +154,7 @@ background-size: cover
 <br><br><br><br><br>
 
 .midi[
-.hand[follow along at] [rstd.io/rmd-custom-cloud](https://rstd.io/rmd-custom-cloud)
+.hand[follow along at] [bit.ly/custom-rmd-stl-cloud](https://bit.ly/custom-rmd-stl-cloud)
 ]
 
 ---
@@ -208,7 +208,7 @@ background-size: cover
 <br><br><br><br><br>
 
 .midi[
-.hand[follow along at] [rstd.io/rmd-custom-cloud](https://rstd.io/rmd-custom-cloud)
+.hand[follow along at] [bit.ly/custom-rmd-stl-cloud](https://bit.ly/custom-rmd-stl-cloud)
 ]
 
 ---
@@ -241,7 +241,7 @@ background-size: cover
 <br><br><br><br><br>
 
 .midi[
-.hand[follow along at] [rstd.io/rmd-custom-cloud](https://rstd.io/rmd-custom-cloud)
+.hand[follow along at] [bit.ly/custom-rmd-stl-cloud](https://bit.ly/custom-rmd-stl-cloud)
 ]
 
 ---
@@ -276,7 +276,7 @@ background-size: cover
 <br><br><br><br><br>
 
 .midi[
-.hand[follow along at] [rstd.io/rmd-custom-cloud](https://rstd.io/rmd-custom-cloud)
+.hand[follow along at] [bit.ly/custom-rmd-stl-cloud](https://bit.ly/custom-rmd-stl-cloud)
 ]
 
 ---
@@ -307,7 +307,7 @@ background-size: cover
 <br><br><br><br><br>
 
 .midi[
-.hand[follow along at] [rstd.io/rmd-custom-cloud](https://rstd.io/rmd-custom-cloud)
+.hand[follow along at] [bit.ly/custom-rmd-stl-cloud](https://bit.ly/custom-rmd-stl-cloud)
 ]
 
 ---
@@ -355,7 +355,7 @@ class: middle, inverse
 .center[
 .large[
 .hand[
-thank you! <br><br> [rstd.io/rmd-custom](https://rstd.io/rmd-custom)
+thank you! <br><br> [bit.ly/custom-rmd-stl](https://bit.ly/custom-rmd-stl)
 ]
 ]
 ]
