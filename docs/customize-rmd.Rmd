@@ -299,6 +299,10 @@ Using R Markdown, you can write
 
 ---
 
+<iframe src="https://app.sli.do/event/tvtffkpx" height="100%" width="100%" frameBorder="0" style="min-height: 560px;" title="Slido"></iframe>
+
+---
+
 background-image: url("images/amboseli-land.jpeg")
 background-size: cover
 
