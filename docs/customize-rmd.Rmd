@@ -25,6 +25,7 @@ knitr::opts_chunk$set(
   warning = FALSE,
   hiline = TRUE
 )
+library(countdown)
 ```
 
 ```{r include=FALSE, warning=FALSE}
@@ -300,6 +301,10 @@ Using R Markdown, you can write
 ---
 
 <iframe src="https://app.sli.do/event/tvtffkpx" height="100%" width="100%" frameBorder="0" style="min-height: 560px;" title="Slido"></iframe>
+
+```{r}
+countdown(minutes = 0, seconds = 30)
+```
 
 ---
 
